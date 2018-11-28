@@ -110,7 +110,7 @@ hr {
   border-radius: 4px;
 }
 
-.grand-parent.selected,
+#grand-parent.selected,
 .parent.selected {
   color: #222;
   border: 1px dashed #fc830a;
@@ -132,7 +132,7 @@ hr {
   font-weight: bold;
   letter-spacing: 1px;
   border-color: #eee;
-  width: 300px;
+  width: 800px;
   text-align: center;
 }
 
