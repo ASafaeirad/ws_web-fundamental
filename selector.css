@@ -13,7 +13,7 @@ body {
 }
 
 body {
-  background: #eee;
+  background: #222;
   font-size: 14px;
   font-family: Raleway;
 }
@@ -48,10 +48,11 @@ body {
   flex: 0 0 250px;
   display: flex;
   flex-flow: column wrap;
-  background: rgba(255, 255, 255, 0.5);
+  background: #444;
+  color: #fff;
   padding: 1.1em 1.5em 1em 1.5em;
   box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
-  border-radius: 1em;
+  border-radius: 5px;
   transition: .5s transform, .5s background, .5s box-shadow;
   margin: 1em;
   min-height: 480px;
@@ -60,6 +61,8 @@ body {
 .parent-title {
   display: block;
   text-align: center;
+  font-size: 20px;
+  font-weight: bold;
   margin-bottom: .5em;
 }
 
@@ -89,9 +92,9 @@ hr {
 }
 
 .child.selected {
-  background: #fc830a !important;
+  background: #ffd000 !important;
   box-shadow: 0 5px 10px rgba(252, 131, 10, .5), inset 0 0px 25px rgba(255, 221, 43, 0.5) !important;
-  color: white !important;
+  color: #222 !important;
   transform: translate(0, -3px) !important;
 }
 
@@ -109,16 +112,26 @@ hr {
 
 .grand-parent.selected,
 .parent.selected {
+  color: #222;
   border: 1px dashed #fc830a;
   box-shadow: 0 2px 10px rgba(252, 131, 10, .5);
   transform: translate(0, -3px) !important;
+  background-color: #eee;
+}
+
+.header {
+  margin: 1em;
 }
 
 #txtSelector {
   padding: 8px 10px;
   background: transparent;
   border-width: 0 0 1px 0;
-  border-color: rgba(0, 0, 0, .4);
+  font-size: 2em;
+  color: #eee;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-color: #eee;
   width: 300px;
   text-align: center;
 }
@@ -129,6 +142,7 @@ hr {
 }
 
 .page-title {
+  color: #eee;
   font-size: 2em;
   font-family: Segoe UI Light;
   margin: 15px;
