@@ -1,67 +1,90 @@
 <html>
-  <head>
-    <title> Privado Clone</title>
 
-    <style>
-      .container {
-        display: flex;
-      }
+<head>
+  <title> Privado Clone</title>
+  <style>
+    body {
+      margin: 0;
+    }
 
-      .section-image {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-    </style>
-  </head>
+    .container {
+      display: flex;
+    }
 
-  <body>
-    <div class="container">
+    .section {
+      height: 100%;
+      position: relative;
+      flex: 1;
+      display: flex;
 
-      <!-- PROFILE SECTOIN START -->
-      <div id="profile-section" class="section">
-        <img class="section-image" src="./images/profile.jpg" alt="desktop" />
-        <div class="section-content">
-          <span class="section-icon">P</span>
-          <h2 class="section-heading">Profile</h2>
-          <p class="section-desc">A Brief About Me...</p>
-        </div>
+      justify-content: center;
+      align-items: center;
+    }
+
+    .section-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      left: 0;
+      z-index: -1;
+    }
+
+    .section-content {
+      text-align: center;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- PROFILE SECTOIN START -->
+    <div id="profile-section" class="section">
+      <img class="section-image" src="./images/profile.jpg" alt="desktop" />
+      <div class="section-content">
+        <span class="section-icon">P</span>
+        <h2 class="section-heading">Profile</h2>
+        <p class="section-desc">A Brief About Me...</p>
       </div>
-      <!-- PROFILE SECTOIN END -->
-
-      <!-- RESUME SECTOIN START -->
-      <div id="resume-secion" class="section">
-        <img class="section-image" src="./images/desktop.jpg" alt="desktop" />
-        <div class="section-content">
-          <span class="section-icon">R</span>
-          <h2 class="section-heading">Resume</h2>
-          <p class="section-desc">My Academic Qualifications...</p>
-        </div>
-      </div>
-      <!-- PROFILE SECTOIN END -->
-
-      <!-- PORTFOLIO SECTOIN START -->
-      <div id="portfolio-section" class="section">
-        <img class="section-image" src="./images/keyboard.jpg" alt="desktop" />
-        <div class="section-content">
-          <span class="section-icon">P</span>
-          <h2 class="section-heading">Portfolio</h2>
-          <p class="section-desc">Some of My Works...</p>
-        </div>
-      </div>
-      <!-- PORTFOLIO SECTOIN END -->
-
-      <!-- CONTACT SECTOIN START -->
-      <div id="contact-section" class="section">
-        <img class="section-image" src="./images/map.jpg" alt="desktop" />
-        <div class="section-content">
-          <span class="section-icon">C</span>
-          <h2 class="section-heading">Contact</h2>
-          <p class="section-desc">Way to Reach Me...</p>
-        </div>
-      </div>
-      <!-- CONTACT SECTOIN END -->
-
     </div>
-  </body>
+    <!-- PROFILE SECTOIN END -->
+
+    <!-- RESUME SECTOIN START -->
+    <div id="resume-secion" class="section">
+      <img class="section-image" src="./images/desktop.jpg" alt="desktop" />
+      <div class="section-content">
+        <span class="section-icon">R</span>
+        <h2 class="section-heading">Resume</h2>
+        <p class="section-desc">My Academic Qualifications...</p>
+      </div>
+    </div>
+    <!-- PROFILE SECTOIN END -->
+
+    <!-- PORTFOLIO SECTOIN START -->
+    <div id="portfolio-section" class="section">
+      <img class="section-image" src="./images/keyboard.jpg" alt="desktop" />
+      <div class="section-content">
+        <span class="section-icon">P</span>
+        <h2 class="section-heading">Portfolio</h2>
+        <p class="section-desc">Some of My Works...</p>
+      </div>
+    </div>
+    <!-- PORTFOLIO SECTOIN END -->
+
+    <!-- CONTACT SECTOIN START -->
+    <div id="contact-section" class="section">
+      <img class="section-image" src="./images/map.jpg" alt="desktop" />
+      <div class="section-content">
+        <span class="section-icon">C</span>
+        <h2 class="section-heading">Contact</h2>
+        <p class="section-desc">Way to Reach Me...</p>
+      </div>
+    </div>
+    <!-- CONTACT SECTOIN END -->
+
+  </div>
+</body>
+
 </html>
