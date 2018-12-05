@@ -20,3 +20,59 @@ body {
   top: 40px;
   right: 40px;
 }
+
+.main {
+  background-color: #f2f2f2;
+  text-align: center;
+  color: #404148;
+  padding: 50px 0;
+}
+
+.contact-form {
+  background: #ffffff;
+  width: 50%;
+  margin-left: 25%;
+  text-align: initial;
+  padding: 60px 40px;
+}
+
+.main-heading {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+}
+
+.form-input:focus {
+  background-color: rgba(0, 0, 0, 0.03);
+  outline: none;
+}
+
+.form-button {
+  width: 100%;
+  background-color: transparent;
+  padding: 20px;
+  border: 1px solid #ddd;
+  font-weight: bold;
+}
+
+.form-button:hover {
+border-color: #000;
+}
+
+.form-group {
+  display: flex;
+}
+
+.form-group .form-input:first-child {
+  margin-right: 30px;
+}
+
