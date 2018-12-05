@@ -3,14 +3,20 @@ body {
 }
 
 .header {
-  /* background-color: #333; */
   height: 100vh;
   display: flex;
   background-image: url('./images/map.jpg');
   justify-content: center;
   align-items: center;
+  background-size: cover;
 }
 
 .header:hover .section-desc {
   opacity: 1;
+}
+
+.close-button {
+  position: fixed;
+  top: 40px;
+  right: 40px;
 }
