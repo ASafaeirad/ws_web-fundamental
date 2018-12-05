@@ -2,6 +2,8 @@ body {
   margin: 0;
 }
 
+/* Header Section */
+
 .header {
   height: 100vh;
   display: flex;
@@ -20,6 +22,11 @@ body {
   top: 40px;
   right: 40px;
 }
+
+/* End Header Section */
+
+
+/* Main Section */
 
 .main {
   background-color: #f2f2f2;
@@ -76,3 +83,77 @@ border-color: #000;
   margin-right: 30px;
 }
 
+/* End Main Section */
+
+/* Footer Section */
+
+.footer {
+  height: 400px;
+  display: flex;
+}
+
+.footer-left {
+  background-color: #fe7c60;
+  width: 50%;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.footer-info {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.footer-info-item {
+  flex: 1;
+  text-align: center;
+  border-right: 1px solid #f2f2f2;
+}
+
+.footer-info-item:last-child {
+  border: none;
+}
+
+.info-item-icon {
+  height: 40px;
+}
+
+.info-item-desc {
+  color: #f2f2f2;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.contact-item {
+  width: 50px;
+  height: 50px;
+  background: #f2f2f2;
+  border-radius: 100%;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-item {
+  margin: 0 8px;
+}
+
+.footer-right {
+  background: #222;
+  height: 100%;
+  flex: 1;
+}
+
+.triangle {
+  box-sizing: border-box;
+  width: 200px;
+  height: 100%;
+  border-right: 200px solid transparent;
+  border-bottom: 200px solid transparent;
+  border-top: 200px solid #fe7c60;
+  border-left: 200px solid #fe7c60;
+}
+
+/* End Footer Section */
